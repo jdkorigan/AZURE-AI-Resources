@@ -1,17 +1,16 @@
-# Microsoft Vision — IQ Era (summary)
+# Microsoft Vision - The IQ Era (summary)
 
-This post explains how Microsoft’s “IQ” stack turns fragmented enterprise data into real outcomes:
+This article explains how the IQ stack turns fragmented enterprise data into real hospital outcomes by splitting responsibility across three layers:
 
-- **Fabric IQ** unifies enterprise data (ontology + graph) to provide a shared, live business context for analytic and operational agents.
-- **Foundry IQ** performs reasoning and trusted knowledge injection using **RAG**, producing auditable decisions under governance.
-- **Work IQ** connects decisions to daily workflows via **Copilot**, enabling confirmation, handoff, and execution in the apps people already use.
+- **Fabric IQ** unifies enterprise data (semantic models) by adding **ontology + graph**, enabling real-time + historical understanding for **analytic and operational agents**.
+- **Foundry IQ** builds AI **decision agents** using **RAG** to inject trusted knowledge (hospital protocols, medication rules, **robot SOPs**) and produce context-aware, auditable decisions under governance.
+- **Work IQ** embeds AI into daily workflows via **Copilot** (meetings, chats, tasks), enabling confirmation, handoff, and execution in the apps people already use.
 
-## Hospital scenario in one line
-A nurse requests a medication; Fabric models the unified context, Foundry selects the best robot route/priority under constraints, and Work IQ coordinates the action back in Teams (confirm + tracking).
+## Hospital use case
+In the scenario where a nurse requests a **stat** medication (e.g., antibiotic), Copilot captures intent in Teams, Fabric provides unified context, Foundry selects the best robot route/priority under constraints, and Work IQ drives the action back with confirmation and tracking (including ETA updates).
 
 ## Diagrams
-The article includes a **scenario workflow** diagram and a **minimal implementation** (agent roles) diagram.
+The article includes a **scenario workflow** diagram and a minimal implementation lens (agent roles).
 
 ---
-
-HTML version on GitHub: https://github.com/jdkorigan/AZURE-AI-Resources/blob/main/2-Dojo-Blog-IQ-Strategy/microsoft-vision-iq-era.html
+HTML version: [Open the rendered page](https://jdkorigan.github.io/AZURE-AI-Resources/microsoft-vision-iq-era.html)
